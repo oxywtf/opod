@@ -1,0 +1,29 @@
+= Opod
+
+Opod is a adaptive cache system for Ruby. It can persist data to
+a variety of static sources --in memory, to file, or via database.
+
+
+== Installation
+
+Installing via RubyGems:
+
+  gem install opod
+
+Manual install:
+
+  $ unzip opod-0.0.1.zip
+  $ cd opod-0.0.1.zip
+  $ sudo task/setup
+
+Windows users the last line will be 'ruby task/setup'.
+
+
+== Copying
+
+Copyright (c) 2005-2007 Thomas Sawyer, George Moschovitis
+
+All rights reserved.
+
+BSD License
+

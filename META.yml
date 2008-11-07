@@ -1,0 +1,14 @@
+title   : Opod
+contact : Trans <transfire at gmail.com>
+author  : George K. Moschovitis
+brief   : Perstistant memory system.
+description:
+  Object Pods, persistent memory system.
+
+homepage: "http://www.opod.rubyforge.org"
+
+dependency:
+  - [ facets, >= 2.2.0 ]
+exclude: [ doc, pkg, work, dev ]
+document: true
+

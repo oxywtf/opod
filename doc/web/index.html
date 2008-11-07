@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>O P O D</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+  <META NAME="DESCRIPTION"
+        CONTENT="Opod is a data persistance library for the Ruby programming lanaguage."/>
+
+  <link rel="icon" href="img/27invertebrate.jpg" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+<div id="beach_front">
+
+  <div id="beach_head">
+    <div style="float: left;">
+      <a href="http://bioephemera.com"><img src="img/galactopod1.jpg" width="300px;"></a>
+    </div>
+
+    <div id="title">O P O D</div>
+
+    <div id="menu">
+      <a href="http://http://rubyforge.org/projects/opod/">Development</a> -
+      <a href="http://rubyforge.org/frs/?group_id=4506">Download</a> -
+      <a href="http://groups.google.com/group/facets-universal?hl=en">Mailing List</a>
+    </div>
+  </div>
+
+  <div id="content" style="clear: both;">
+
+    <p><span style="color: #48abc2;">OPOD</span>
+    is a data persistance system that supports a variety of backend adapters.
+    Unlike an ORM, Opod is <i>persistant variable system</i>. It can store
+    any type of data as long as it can be serialized. The serialization
+    format is adaptable too. By default it uses Ruby's own Marshal system,
+    but can alternatively use YAML, JSON, et al.</p>
+
+    <p>Baclend adapters are easy to write. Generally they are less than 100 lines of
+    coode. Currently built-in stores include:
+      <span class="water">Memory</span>,
+      <span class="water">File</span>,
+      <span class="water">PStore</span>,
+      <span class="water">Og</span>,
+      <span class="water">drb</span>.
+    </p>
+
+    <p>Examples are pretty obvious -- no great mystery at the these depths:</p>
+
+    <pre>
+      mc = Opod::Memory.new('Mr. Bubbles')
+
+      mc['note'] = "I will not be forgotten!"
+    </pre>
+
+    <p>... <i>after the jump</i> ... </p>
+
+    <pre>
+      mc = Opod['Mr. Bubbles']
+
+      mc['note'] #=> "I will not be forgotten!"
+    </pre>
+
+    <p>Persistance stores can be named anything. In fact the key to a
+    store can be any object, just like a Hash key.</p>
+
+    <p>Opod is an off-shoot of <a href="http://nitroproject.org">Nitro</a>.</p>
+
+    <div id="ad">
+      <script type="text/javascript"><!--
+      google_ad_client = "pub-1126154564663472";
+      google_ad_width = 728;
+      google_ad_height = 90;
+      google_ad_format = "728x90_as";
+      google_ad_type = "text_image";
+      //2007-08-01: nemo
+      google_ad_channel = "3534070400";
+      google_color_border = "FFFFFF";
+      google_color_bg = "FFFFFF";
+      google_color_link = "44AAff";
+      google_color_text = "000000";
+      google_color_url = "208066";
+      google_ui_features = "rc:0";
+      //-->
+      </script>
+      <script type="text/javascript"
+        src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+      </script>
+    </div>
+
+    <div id="copyright">
+      <p>Opod - Copyright &copy; 2007 George Moschovities</p>
+      <p>Opod is distributed under the terms of the Ruby license,
+        which is a dual GPL license.</p>
+      <p>
+      <p>The "Galactopod" art is Copyright &copy; 2007 <a href="http://bioephemera.com">bioephemera.com</a>.</p>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
+

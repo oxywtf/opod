@@ -1,0 +1,111 @@
+
+    * {
+      border: 0;
+    }
+
+    body {
+      font-size: 1em;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      background: #dddddd;
+    }
+
+    pre {
+      padding-top: 10px;
+      text-align: left;
+      color: #48abc2;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    p {
+      font-size: 1.4em;
+      text-align: left;
+      color: #444444;
+    }
+
+    ul {
+      font-size: 1.5em;
+      margin: 15px;
+    }
+
+    li {
+      color: #48abc2;
+    }
+
+    .water {
+      color: #48abc2;
+    }
+
+    #beach_front {
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    #beach_head {
+      padding: 10px;
+      width: 780px;
+      height: 280px;
+      margin: 0 auto;
+      background: black;
+    }
+
+    #title {
+      padding-top: 50px;
+      color: #48abc2;
+      text-align: center;
+      font-size: 100px;
+      font-weight: bold;
+    }
+
+    #menu {
+      text-align: center;
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #48abc2;
+    }
+
+    #menu a {
+      text-decoration: none;
+      font-weight: bold;
+      color: pink;
+    }
+
+    #menu a:hover {
+      text-decoration: underline;
+    }
+
+    #content {
+      padding: 10px 20px;
+      text-align: left;
+      color: #48abc2;
+      font-weight: bold;
+      background: white;
+    }
+
+    #content p {
+      background: white;
+      color: #222222;
+      text-align: justify;
+      line-height: 1.6em;
+    }
+
+    #copyright {
+      margin-top: 30px;
+      background: url() repeat-x bottom;
+      font-size: 0.7em;
+    }
+
+    #ad {
+      text-align: center; margin: 50px 0 50px 0;
+      border: 1px solid black;
+      padding: 5px;
+    }
+
+    #copyright p {
+      font-size: 0.7em;
+      font-weight: normal;
+      color: #666666;
+      text-align: center;
+    }
